@@ -122,7 +122,7 @@
 
 #### Bug-fixes and minor changes
 
-See [HISTORY](HISTORY)
+See [HISTORY](HISTORY.md)
 
 
 ## System Requirements
