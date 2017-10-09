@@ -143,23 +143,23 @@ See [HISTORY](HISTORY.md)
 
 ## To do
 
-- `Win64` version
-- File `Overlay` Analyzer and Extractor
-- `Authenticode` Viewer
-- `Rich` Signature Editor
-- `Relocations` Checker
-- `Debug` Directory Remover
-- [Corkami](https://github.com/corkami/pocs/tree/master/PE/bin) binaries testing and support
-- `.NET Directory` Viewer
-- `External Tools` support (preliminary list):
-    - [x64dbg](https://x64dbg.com)
-    - [Scylla Imports Reconstruction](https://github.com/NtQuery/Scylla)
-    - [Hiew](http://hiew.ru)
-    - [r2](https://github.com/radare/radare2)
-    - [Resource Hacker](http://www.angusj.com/resourcehacker)
-- `Structures Export` to readable formats like `JSON` / `YAML`
-- `Crypto` tools (`hash`, `decryption` / `decryption`)
-- `ARM` disassembler (far-far-away)
+- [ ] `Win64` version
+- [ ] File `Overlay` Analyzer and Extractor
+- [ ] `Authenticode` Viewer
+- [x] `Rich` Signature Editor
+- [ ] `Relocations` Checker
+- [ ] `Debug` Directory Remover
+- [ ] [Corkami](https://github.com/corkami/pocs/tree/master/PE/bin) binaries testing and support
+- [ ] `.NET Directory` Viewer
+- [ ] `External Tools` support (preliminary list):
+    - [ ] [x64dbg](https://x64dbg.com)
+    - [ ] [Scylla Imports Reconstruction](https://github.com/NtQuery/Scylla)
+    - [ ] [Hiew](http://hiew.ru)
+    - [ ] [r2](https://github.com/radare/radare2)
+    - [ ] [Resource Hacker](http://www.angusj.com/resourcehacker)
+- [ ] `Structures Export` to readable formats like `JSON` / `YAML`
+- [ ] `Crypto` tools (`hash`, `decryption` / `decryption`)
+- [ ] `ARM` disassembler (far-far-away)
 
 
 ## Licensing
