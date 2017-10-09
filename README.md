@@ -148,7 +148,7 @@ See [HISTORY](HISTORY.md)
 - [ ] `Authenticode` Viewer
 - [x] `Rich` Signature Editor
 - [ ] `Relocations` Checker
-- [ ] `Debug` Directory Remover
+- [ ] Enhance `Debug` Directory Remover: remove debug section if empty
 - [ ] [Corkami](https://github.com/corkami/pocs/tree/master/PE/bin) binaries testing and support
 - [ ] `.NET Directory` Viewer
 - [ ] `External Tools` support (preliminary list):
