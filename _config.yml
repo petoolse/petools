@@ -2,3 +2,7 @@ title: PE Tools
 description: PE Tools - portable executable (PE) manipulation toolkit.
 show_downloads: true
 theme: jekyll-theme-modernist
+
+github:
+  zip_url: https://raw.githubusercontent.com/petoolse/petools/master/release/PE.Tools.v1.9.712.2018.zip
+  tar_url: https://raw.githubusercontent.com/petoolse/petools/master/release/PE.Tools.v1.9.712.2018.tar.gz
