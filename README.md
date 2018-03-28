@@ -103,6 +103,7 @@
     - `File Compare` dialog for both compared files
 
 #### 64-bit Disassembler
+![](screens/PETools-Screen-Disasm-diStorm.png)
 - [diStorm](https://github.com/gdabah/distorm) `v3.3.4`
 - Shows `jmp / call` direction
 
