@@ -1,4 +1,4 @@
-# PE Tools
+![](img/petools-logo-blue-128.png)
 
 **PE Tools** - [portable executable](https://en.wikipedia.org/wiki/Portable_Executable) (PE) manipulation toolkit.
 
@@ -23,9 +23,9 @@
 
 ## Description
 
-**PE Tools** let you actively *research* PE files and processes.
-`Process Viewer` and PE files `Editor`, `Dumper`, `Rebuilder`, `Comparator`, `Analyzer` are included.
-**PE Tools** is an *oldschool reverse engineering tool* with a long history since `1999`.
+> **PE Tools** let you actively *research* PE files and processes.
+> `Process Viewer` and PE files `Editor`, `Dumper`, `Rebuilder`, `Comparator`, `Analyzer` are included.
+> **PE Tools** is an *oldschool reverse engineering tool* with a long history since `2002`.
 
 ## Features
 
@@ -65,7 +65,7 @@
     - Full Dump
     - Partial Dump
     - Region Dump
-- Dumper Server (accessible via Dumper Server SDK)
+- ~~Dumper Server (accessible via Dumper Server SDK)~~
 
 ## PE Rebuilder
 
@@ -89,7 +89,7 @@
 
 ## Plugins
 
-- PE Tools `Plugin SDK` available
+- ~~PE Tools `Plugin SDK` available~~
 
 ## What's new in recent major releases
 
@@ -122,7 +122,7 @@
 
 #### Bug-fixes and minor changes
 
-See [HISTORY](HISTORY.md)
+See [HISTORY](HISTORY)
 
 
 ## System Requirements
@@ -140,6 +140,12 @@ See [HISTORY](HISTORY.md)
 - No [large files support](https://en.wikipedia.org/wiki/Large_file_support) (over 4 GB)
 - No [ARM disassembler](https://en.wikipedia.org/wiki/ARM_architecture#Operating_system_support) support (ARM architecture supported by [Windows 10 Mobile](https://en.wikipedia.org/wiki/Windows_10_Mobile), [Windows RT](https://en.wikipedia.org/wiki/Windows_RT), [Windows Phone](https://en.wikipedia.org/wiki/Windows_Phone), [Windows IoT Core](https://en.wikipedia.org/wiki/Windows_IoT#Core), [Windows Embedded Compact](https://en.wikipedia.org/wiki/Windows_Embedded_Compact))
 
+## Source code
+
+```C++
+throw std::exception(“​PE Tools source code is not available”);
+```
+- If you want to add some features, write ready-to-use snippet (C/C++) and post it in [Issues](https://github.com/petoolse/petools/issues)
 
 ## To do
 
@@ -169,10 +175,10 @@ See [LICENSE](LICENSE)
 
 ## Creators
 
-- NEOx [[uinC](http://uinc.ru/files/neox/PE_Tools.shtml)] - versions up to `1.5`, 1999-2006
-- [Jupiter](https://github.com/upiter) - versions from `1.5`, 2007-2017
+- NEOx [[uinC](http://uinc.ru/files/neox/PE_Tools.shtml)] - versions up to `1.5`, 2002-2006
+- [Jupiter](https://github.com/upiter) - versions from `1.5`, 2007-2018
+- PainteR - versions from `1.8`, 2017-2018
 - [EvilsInterrupt](https://bitbucket.org/sys_dev/) aka [NtVisigoth](http://ntvisigoth.blogspot.com) - versions from `1.5`, 2012-2014
-- PainteR - versions from `1.8`, 2017
 
 
 ## Contacts
