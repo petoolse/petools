@@ -22,10 +22,12 @@
         {% if site.description or site.github.project_tagline %}
           <p>{{ site.description | default: site.github.project_tagline }}</p>
         {% endif %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
+        <p class="view"><a href="{{ site.github.repository_url }}"><small>View the Project on GitHub</small></a></p>
+        <p class="view"><a href="{{ site.github.zip_url }}">Download Release</a></p>
         <ul>
         {% if site.show_downloads %}
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+          <li><a href="{{ site.github.zip_url }}">Download <strong>Release</strong></a></li>
+          <li><a href="#whats-new-in-recent-major-releases">What's <strong>New</strong></a></li>
         {% endif %}
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
