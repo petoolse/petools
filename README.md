@@ -96,10 +96,11 @@
 ### PE Tools v1.9
 
 #### Entropy View
+![](screens/PETools-Screens-Entropy.gif)
 - Entropy Viewer available in:
     - Main `PE Editor` dialog
     - `Section Editor` via section context menu
-    - `File Location Calculator (FLC)` for both compared files
+    - `File Compare` dialog for both compared files
 
 #### 64-bit Disassembler
 - [diStorm](https://github.com/gdabah/distorm) `v3.3.4`
