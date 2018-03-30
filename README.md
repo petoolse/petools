@@ -1,4 +1,4 @@
-![](img/petools-logo-blue-128.png)
+![](https://petoolse.github.io/petools/img/petools-logo-blue-128.png)
 
 **PE Tools** - [portable executable](https://en.wikipedia.org/wiki/Portable_Executable) (PE) manipulation toolkit.
 
