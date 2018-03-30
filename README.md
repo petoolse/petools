@@ -1,4 +1,4 @@
-# PE Tools
+![](img/petools-logo-blue-128.png)
 
 **PE Tools** - [portable executable](https://en.wikipedia.org/wiki/Portable_Executable) (PE) manipulation toolkit.
 
@@ -23,9 +23,10 @@
 
 ## Description
 
-**PE Tools** let you actively *research* PE files and processes.
-`Process Viewer` and PE files `Editor`, `Dumper`, `Rebuilder`, `Comparator`, `Analyzer` are included.
-**PE Tools** is an *oldschool reverse engineering tool* with a long history since `1999`.
+> **PE Tools** lets you actively *research* PE files and processes.
+> `Process Viewer` and PE files `Editor`, `Dumper`, `Rebuilder`, `Comparator`, `Analyzer` are included.
+> **PE Tools** is an *oldschool reverse engineering tool* with a long history since `2002`.
+> PE Tools was initially inspired by LordPE (yoda).
 
 ## Features
 
@@ -65,7 +66,7 @@
     - Full Dump
     - Partial Dump
     - Region Dump
-- Dumper Server (accessible via Dumper Server SDK)
+- ~~Dumper Server (accessible via Dumper Server SDK)~~
 
 ## PE Rebuilder
 
@@ -89,19 +90,26 @@
 
 ## Plugins
 
-- PE Tools `Plugin SDK` available
+- ~~PE Tools `Plugin SDK` available~~
 
 ## What's new in recent major releases
 
 ### PE Tools v1.9
 
+Complete PE Tools v1.9 announces:
+- [PE Tools v1.9 announce in English](https://petoolse.github.io/petools/Announce-EN)
+- [PE Tools v1.9 announce in Russian](https://petoolse.github.io/petools/Announce-RU)
+
+
 #### Entropy View
+![](https://petoolse.github.io/petools/screens/PETools-Screens-Entropy.gif)
 - Entropy Viewer available in:
     - Main `PE Editor` dialog
     - `Section Editor` via section context menu
-    - `File Location Calculator (FLC)` for both compared files
+    - `File Compare` dialog for both compared files
 
 #### 64-bit Disassembler
+![](https://petoolse.github.io/petools/screens/PETools-Screen-Disasm-diStorm.png)
 - [diStorm](https://github.com/gdabah/distorm) `v3.3.4`
 - Shows `jmp / call` direction
 
@@ -122,7 +130,7 @@
 
 #### Bug-fixes and minor changes
 
-See [HISTORY](HISTORY.md)
+See [HISTORY](https://petoolse.github.io/petools/HISTORY)
 
 
 ## System Requirements
@@ -131,8 +139,8 @@ See [HISTORY](HISTORY.md)
 - Supported Windows versions: [Windows 10](https://en.wikipedia.org/wiki/Windows_10), [Windows 8.1](https://en.wikipedia.org/wiki/Windows_8.1), [Windows 8](https://en.wikipedia.org/wiki/Windows_8), [Windows 7](https://en.wikipedia.org/wiki/Windows_7)
 - Minimal Operating System: [Windows XP](https://en.wikipedia.org/wiki/Windows_XP)
 - Administrative rights for `SeDebugPrivilege`
-- macOS supported via [Wine](https://www.winehq.org) (tested Wine 2.16)
-- [ReactOS](https://www.reactos.org) natively supported (tested Reactos 0.4.5)
+- macOS supported via [Wine](https://www.winehq.org) (tested Wine 3.4, 3.0, 2.16)
+- [ReactOS](https://www.reactos.org) natively supported (tested ReactOS 0.4.7)
 
 
 ## Limitations
@@ -140,6 +148,12 @@ See [HISTORY](HISTORY.md)
 - No [large files support](https://en.wikipedia.org/wiki/Large_file_support) (over 4 GB)
 - No [ARM disassembler](https://en.wikipedia.org/wiki/ARM_architecture#Operating_system_support) support (ARM architecture supported by [Windows 10 Mobile](https://en.wikipedia.org/wiki/Windows_10_Mobile), [Windows RT](https://en.wikipedia.org/wiki/Windows_RT), [Windows Phone](https://en.wikipedia.org/wiki/Windows_Phone), [Windows IoT Core](https://en.wikipedia.org/wiki/Windows_IoT#Core), [Windows Embedded Compact](https://en.wikipedia.org/wiki/Windows_Embedded_Compact))
 
+## Source code
+
+```C++
+throw std::exception(“​PE Tools source code is not available”);
+```
+- If you want to add some features, write ready-to-use snippet (C/C++) and post it in [Issues](https://github.com/petoolse/petools/issues)
 
 ## To do
 
@@ -161,6 +175,24 @@ See [HISTORY](HISTORY.md)
 - [ ] `Crypto` tools (`hash`, `decryption` / `decryption`)
 - [ ] `ARM` disassembler (far-far-away)
 
+## Distribution
+
+| File             | Description                    | Lang |
+|:-----------------|:-------------------------------|:-----|
+| `PETools.exe`    | main PE Tools executable       |
+| `HEdit.dll`      | Hex-editor                     |
+| `RebPE.dll`      | PE Rebuilder                   |
+| `Signs.txt`      | PEiD signatures for PE Sniffer |
+| `ReadMe_EN.md`   | ReadMe                         | EN
+| `WhatsNew_EN.md` | What's New                     | EN
+| `WhatsNew_RU.md` | What's New                     | RU
+| `petools.sha1`   | Checksums SHA-1                |
+
+
+## DOWNLOAD
+
+- [github.com/petoolse/petools/releases](https://github.com/petoolse/petools/releases)
+
 
 ## Licensing
 
@@ -169,10 +201,17 @@ See [LICENSE](LICENSE)
 
 ## Creators
 
-- NEOx [[uinC](http://uinc.ru/files/neox/PE_Tools.shtml)] - versions up to `1.5`, 1999-2006
-- [Jupiter](https://github.com/upiter) - versions from `1.5`, 2007-2017
+### PE Tools
+
+- NEOx [[uinC](http://uinc.ru/files/neox/PE_Tools.shtml)] - versions up to `1.5`, 2002-2006
+- [Jupiter](https://github.com/upiter) - versions from `1.5`, 2007-2018
+- PainteR - versions from `1.8`, 2017-2018
 - [EvilsInterrupt](https://bitbucket.org/sys_dev/) aka [NtVisigoth](http://ntvisigoth.blogspot.com) - versions from `1.5`, 2012-2014
-- PainteR - versions from `1.8`, 2017
+
+
+### Additional modules
+
+- yoda (author of LordPE): original HEdit32 component
 
 
 ## Contacts
