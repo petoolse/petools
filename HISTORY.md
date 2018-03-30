@@ -2,22 +2,22 @@
 
 ## PE Tools v1.9
 
-### 1.9.712.2018
+### [1.9.712.2018](https://petoolse.github.io/petools/Announce-EN)
 `30 Mar 2018`
 
 #### Principal Changes
 
 ##### Fixes
 
-Primarily, new release is about bug fixes. There are lot of things fixed including memory leaks and program logic. Be warned, sometimes new bugs are replacing old ones, but we had worked hard to bring you bug-free release without introducing new bugs (we really hope so).
+> Primarily, new release is about bug fixes. There are lot of things fixed including memory leaks and program logic. Be warned, sometimes new bugs are replacing old ones, but we had worked hard to bring you bug-free release without introducing new bugs (we really hope so).
 
 ##### New Features
 
 Some nice new features are added to make your experience more visible and comfortable:
 
-- [x] Brand new Entropy View (approximately detect packing status, presence of encrypted data) with two modes: Curve and Histogram;
+- [x] Brand new **Entropy View** (approximately detect packing status, presence of encrypted data) with two modes: Curve and Histogram;
 - [x] New disassembler engine (previously it was CADt by Ms-Rem, then Mediana by mika0x65 and now it's diStorm by Gil Dabah) has now resulted in x86-64 (64 bit) disasm in addition to x86 (32 bit);
-- [x] Load Config Directory (IMAGE_LOAD_CONFIG_DIRECTORY) support with new additional values and sizes (non-standard sizes);
+- [x] Load Config Directory (`IMAGE_LOAD_CONFIG_DIRECTORY`) support with new additional values and sizes (non-standard sizes);
 - [x] Display of Structured Exception Handlers in Config directory;
 - [x] Certificates (Security Directory) removal (with all certificates);
 - [x] File System Redirector (Windows-on-Windows, WoW) support;
@@ -38,7 +38,7 @@ Some nice new features are added to make your experience more visible and comfor
 - [x] Fill Block dialog in в hex-editor: fill with values; XOR, OR, AND, NOT operations supported;
 - [x] Sections Editor shows zero-based section number (useful with files with many unnamed sections);
 - [x] Default action for double click: opening corresponding dialogs without context menu by default;
-- [x] Values OperatingSystemVersion and SubsystemVersion are automatically updated to conform maximum number of sections for specific OS when increasing number of sections;
+- [x] Values `OperatingSystemVersion` and `SubsystemVersion` are automatically updated to conform maximum number of sections for specific OS when increasing number of sections;
 - [ ] Correct calculation and fix of certain header sizes;
 - [x] Detection of many int3 opcodes to interrupt fast disasm;
 - [ ] Correct relocation table removal with fix of corresponding flags;
@@ -210,3 +210,5 @@ _internal_
 
 `03 Feb 2002`
 - [x] Initial `console` version `never distributed`
+
+[back](./)
