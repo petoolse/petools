@@ -5,6 +5,6 @@ google_analytics:
 theme: jekyll-theme-modernist
 
 github:
-  zip_url: https://raw.githubusercontent.com/petoolse/petools/master/release/PE.Tools.v1.9.712.2018.zip
+  zip_url: https://github.com/petoolse/petools/releases
   tar_url: https://raw.githubusercontent.com/petoolse/petools/master/release/PE.Tools.v1.9.712.2018.tar.gz
-  whatsnew_url: #whats-new-in-recent-major-releases
+  whatsnew_url: /#whats-new-in-recent-major-releases
