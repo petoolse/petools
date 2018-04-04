@@ -2,6 +2,14 @@
 
 ## PE Tools v1.9
 
+### [1.9.762.2018](https://petoolse.github.io/petools/Announce-EN)
+`4 Apr 2018`
+- [ ] Fixed bug in `Add New Section`: [Virtual Address Alignment](https://github.com/petoolse/petools/issues/3)
+
+#### Principal Changes
+
+##### Fixes
+
 ### [1.9.712.2018](https://petoolse.github.io/petools/Announce-EN)
 `30 Mar 2018`
 
