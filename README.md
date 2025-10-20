@@ -2,17 +2,18 @@
 
 **PE Tools** - [portable executable](https://en.wikipedia.org/wiki/Portable_Executable) (PE) manipulation toolkit.
 
+
 ## Table of contents
 
 - [Description](#description)
 - [Features](#features)
-    - [PE Editor](#pe-editor)
-    - [File Location Calculator](#file-location-calculator-flc)
-    - [PE Files Comparator](#pe-files-comparator)
-    - [Process Viewer and Manager](#process-viewer-and-manager)
-    - [PE Dumper](#pe-dumper)
-    - [PE Rebuilder](#pe-rebuilder)
-    - [PE Sniffer](#pe-sniffer)
+	- [PE Editor](#pe-editor)
+	- [File Location Calculator](#file-location-calculator-flc)
+	- [PE Files Comparator](#pe-files-comparator)
+	- [Process Viewer and Manager](#process-viewer-and-manager)
+	- [PE Dumper](#pe-dumper)
+	- [PE Rebuilder](#pe-rebuilder)
+	- [PE Sniffer](#pe-sniffer)
 - [System Requirements](system-requirements)
 - [Limitations](#limitations)
 - [To do](#to-do)
@@ -27,6 +28,7 @@
 > `Process Viewer` and PE files `Editor`, `Dumper`, `Rebuilder`, `Comparator`, `Analyzer` are included.
 > **PE Tools** is an *oldschool reverse engineering tool* with a long history since `2002`.
 > PE Tools was initially inspired by LordPE (yoda).
+
 
 ## Features
 
@@ -45,28 +47,33 @@
 - Load Config Directory **Editor**
 - Bound Directory **Editor**
 
+
 ### File Location Calculator (FLC)
 
 - Virtual Address
 - Relative Virtual Address
 - Raw File Offset
 
+
 ## PE Files Comparator
 
 - Side-by-side comparison of headers and characteristics of two PE files
+
 
 ## Process Viewer and Manager
 
 - Show basic process information
 - Show process modules
 
+
 ## PE Dumper
 
 - Running process dumper
-    - Full Dump
-    - Partial Dump
-    - Region Dump
+	- Full Dump
+	- Partial Dump
+	- Region Dump
 - ~~Dumper Server (accessible via Dumper Server SDK)~~
+
 
 ## PE Rebuilder
 
@@ -77,41 +84,49 @@
 - Imports Binder
 - ImageBase Changer
 
+
 ## PE Sniffer
 
 - Signature analysis of PE files
 - Packer detection
 
+
 ## HEX Editor
 
 - HEX Editor available in:
-    - `Section Editor` via section context menu
-    - Every `Data Directory` in `Directory Editor`
+	- `Section Editor` via section context menu
+	- Every `Data Directory` in `Directory Editor`
 
 ## Plugins
 
 - ~~PE Tools `Plugin SDK` available~~
+
 
 ## What's new in recent major releases
 
 ### PE Tools v1.9
 
 Complete PE Tools v1.9 announces:
+
 - [PE Tools v1.9 announce in English](Announce-EN)
 - [PE Tools v1.9 announce in Russian](Announce-RU)
 
 
 #### Entropy View
+
 ![](screens/PETools-Screens-Entropy.gif)
 - Entropy Viewer available in:
-    - Main `PE Editor` dialog
-    - `Section Editor` via section context menu
-    - `File Compare` dialog for both compared files
+	- Main `PE Editor` dialog
+	- `Section Editor` via section context menu
+	- `File Compare` dialog for both compared files
+
 
 #### 64-bit Disassembler
+
 ![](screens/PETools-Screen-Disasm-diStorm.png)
-- [diStorm](https://github.com/gdabah/distorm) `v3.3.4`
+- [diStorm][distorm.gh] `v3.3.4`
 - Shows `jmp / call` direction
+
 
 #### Load Config Directory Editor
 
@@ -123,24 +138,29 @@ Complete PE Tools v1.9 announces:
 - 192 DPI supported
 - `DPI` modes supported and tested: `96`, `120`, `144`, `192`
 - Graphics redrawn:
-    - Main Application Icon
-    - Logo
-    - Toolbar icons
+	- Main Application Icon
+	- Logo
+	- Toolbar icons
 
 
 #### Bug-fixes and minor changes
 
-See [HISTORY](https://petoolse.github.io/petools/HISTORY)
+See [HISTORY](https://petoolse.github.io/petools/HISTORY).
 
 
 ## System Requirements
 
-- Latest tested Operating System: [Windows 10](https://en.wikipedia.org/wiki/Windows_10)
-- Supported Windows versions: [Windows 10](https://en.wikipedia.org/wiki/Windows_10), [Windows 8.1](https://en.wikipedia.org/wiki/Windows_8.1), [Windows 8](https://en.wikipedia.org/wiki/Windows_8), [Windows 7](https://en.wikipedia.org/wiki/Windows_7)
-- Minimal Operating System: [Windows XP](https://en.wikipedia.org/wiki/Windows_XP)
+- Latest tested Operating System: [Windows 11][win11.wiki]
+- Supported Windows versions:
+	- [Windows 11][win11.wiki]
+	- [Windows 10][win10.wiki]
+	- [Windows 8.1][win81.wiki]
+	- [Windows 8][win8.wiki]
+	- [Windows 7][win7.wiki]
+- Minimal Operating System: [Windows XP][winxp.wiki]
 - Administrative rights for `SeDebugPrivilege`
-- macOS supported via [Wine](https://www.winehq.org) (tested Wine 3.4, 3.0, 2.16)
-- [ReactOS](https://www.reactos.org) natively supported (tested ReactOS 0.4.7)
+- macOS supported via [Wine][wine] (tested Wine 3.4, 3.0, 2.16)
+- [ReactOS][reactos] natively supported (tested ReactOS 0.4.7)
 
 
 ## Limitations
@@ -148,12 +168,15 @@ See [HISTORY](https://petoolse.github.io/petools/HISTORY)
 - No [large files support](https://en.wikipedia.org/wiki/Large_file_support) (over 4 GB)
 - No [ARM disassembler](https://en.wikipedia.org/wiki/ARM_architecture#Operating_system_support) support (ARM architecture supported by [Windows 10 Mobile](https://en.wikipedia.org/wiki/Windows_10_Mobile), [Windows RT](https://en.wikipedia.org/wiki/Windows_RT), [Windows Phone](https://en.wikipedia.org/wiki/Windows_Phone), [Windows IoT Core](https://en.wikipedia.org/wiki/Windows_IoT#Core), [Windows Embedded Compact](https://en.wikipedia.org/wiki/Windows_Embedded_Compact))
 
+
 ## Source code
 
 ```C++
-throw std::exception(“​PE Tools source code is not available”);
+throw std::exception("PE Tools source code is not available!");
 ```
-- If you want to add some features, write ready-to-use snippet (C/C++) and post it in [Issues](https://github.com/petoolse/petools/issues)
+
+- If you want to add some features, write ready-to-use snippet (C/C++) and post it in [Issues][petools.issues.gh]
+
 
 ## To do
 
@@ -163,17 +186,18 @@ throw std::exception(“​PE Tools source code is not available”);
 - [x] `Rich` Signature Editor
 - [ ] `Relocations` Checker
 - [ ] Enhance `Debug` Directory Remover: remove debug section if empty
-- [ ] [Corkami](https://github.com/corkami/pocs/tree/master/PE/bin) binaries testing and support
+- [ ] [Corkami][corkami.gh] binaries testing and support
 - [ ] `.NET Directory` Viewer
 - [ ] `External Tools` support (preliminary list):
-    - [ ] [x64dbg](https://x64dbg.com)
-    - [ ] [Scylla Imports Reconstruction](https://github.com/NtQuery/Scylla)
-    - [ ] [Hiew](http://hiew.ru)
-    - [ ] [r2](https://github.com/radare/radare2)
-    - [ ] [Resource Hacker](http://www.angusj.com/resourcehacker)
+	- [ ] [x64dbg][x64dbg.gh]
+	- [ ] [Scylla Imports Reconstruction][scylla.gh]
+	- [ ] [Hiew][hiew]
+	- [ ] [r2][radare.gh]
+	- [ ] [Resource Hacker][reshacker]
 - [ ] `Structures Export` to readable formats like `JSON` / `YAML`
 - [ ] `Crypto` tools (`hash`, `decryption` / `decryption`)
 - [ ] `ARM` disassembler (far-far-away)
+
 
 ## Distribution
 
@@ -191,22 +215,22 @@ throw std::exception(“​PE Tools source code is not available”);
 
 ## DOWNLOAD
 
-- [github.com/petoolse/petools/releases](https://github.com/petoolse/petools/releases)
+- [github.com/petoolse/petools/releases][petools.releases.gh]
 
 
 ## Licensing
 
-See [LICENSE](LICENSE)
+See [LICENSE](LICENSE).
 
 
 ## Creators
 
 ### PE Tools
 
-- NEOx [[uinC](http://uinc.ru/files/neox/PE_Tools.shtml)] - versions up to `1.5`, 2002-2006
-- [Jupiter](https://github.com/upiter) - versions from `1.5`, 2007-2018
+- NEOx [[uinC][pe.tools.uinc]] - versions up to `1.5`, 2002-2006
+- [Jupiter][jupiter.gh] - versions from `1.5`, 2007-2018
 - PainteR - versions from `1.8`, 2017-2018
-- [EvilsInterrupt](https://bitbucket.org/sys_dev/) aka [NtVisigoth](http://ntvisigoth.blogspot.com) - versions from `1.5`, 2012-2014
+- [Dmitry Andriyankov][andriyankov.gh] aka [EvilsInterrupt][andriyankov.habr] aka [NtVisigoth][andriyankov.blogspot] - versions from `1.5`, 2012-2014
 
 
 ### Additional modules
@@ -216,4 +240,41 @@ See [LICENSE](LICENSE)
 
 ## Contacts
 
-Feel free to contact via Twitter [@petoolse](https://twitter.com/petoolse).
+Feel free to contact via Twitter [@petoolse][twitter].
+
+
+[distorm.gh]: https://github.com/gdabah/distorm
+
+[pe.wiki]: https://en.wikipedia.org/wiki/Portable_Executable
+
+[win11.wiki]: https://en.wikipedia.org/wiki/Windows_11
+[win10.wiki]: https://en.wikipedia.org/wiki/Windows_10
+[win81.wiki]: https://en.wikipedia.org/wiki/Windows_8.1
+[win8.wiki]: https://en.wikipedia.org/wiki/Windows_8
+[win7.wiki]: https://en.wikipedia.org/wiki/Windows_7
+[winxp.wiki]: https://en.wikipedia.org/wiki/Windows_XP
+
+[wine]: https://www.winehq.org
+[reactos]: https://www.reactos.org
+
+[corkami.gh]: https://github.com/corkami/pocs/tree/master/PE/bin
+[x64dbg.gh]: https://github.com/x64dbg/x64dbg
+[scylla.gh]: https://github.com/x64dbg/Scylla
+[hiew]: https://hiew.ru
+[radare.gh]: https://github.com/radare/radare2
+[reshacker]: https://www.angusj.com/resourcehacker
+
+[petools.releases.gh]: https://github.com/petoolse/petools/releases
+[petools.issues.gh]: https://github.com/petoolse/petools/issues
+
+[pe.tools.uinc]: https://web.archive.org/web/20171201053946/uinc.ru/files/neox/PE_Tools.shtml
+
+[jupiter.gh]: https://github.com/upiter
+[painter.gh]: https://github.com/pr701
+
+[andriyankov.gh]: https://github.com/andriyankov
+[andriyankov.habr]: https://habr.com/ru/users/EvilsInterrupt
+[andriyankov.blogspot]: https://ntvisigoth.blogspot.com
+[andriyankov.bitbucket]: https://bitbucket.org/sys_dev
+
+[twitter]: https://x.com/petoolse
