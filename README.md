@@ -229,13 +229,13 @@ See [LICENSE](LICENSE).
 
 - NEOx [[uinC][pe.tools.uinc]] - versions up to `1.5`, 2002-2006
 - [Jupiter][jupiter.gh] - versions from `1.5`, 2007-2018
-- PainteR - versions from `1.8`, 2017-2018
+- [PainteR][painter.gh] - versions from `1.8`, 2017-2018
 - [Dmitry Andriyankov][andriyankov.gh] aka [EvilsInterrupt][andriyankov.habr] aka [NtVisigoth][andriyankov.blogspot] - versions from `1.5`, 2012-2014
 
 
 ### Additional modules
 
-- yoda (author of LordPE): original HEdit32 component
+- Danilo Bzdok aka [yoda][yoda.archive] (author of [LordPE][lordpe.archive]): original HEdit32 component.
 
 
 ## Contacts
@@ -276,5 +276,8 @@ Feel free to contact via Twitter [@petoolse][twitter].
 [andriyankov.habr]: https://habr.com/ru/users/EvilsInterrupt
 [andriyankov.blogspot]: https://ntvisigoth.blogspot.com
 [andriyankov.bitbucket]: https://bitbucket.org/sys_dev
+
+[lordpe.archive]: https://web.archive.org/web/20070823025434/scifi.pages.at/yoda9k/LordPE/info.htm
+[yoda.archive]: https://web.archive.org/web/20041023153231/scifi.pages.at/yoda9k/aboutme.htm
 
 [twitter]: https://x.com/petoolse
