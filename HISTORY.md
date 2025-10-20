@@ -3,11 +3,14 @@
 ## PE Tools v1.9
 
 ### [1.9.762.2018](https://petoolse.github.io/petools/Announce-EN)
+
 `4 Apr 2018`
+
 - [ ] Fixed bug in `Add New Section`: [Virtual Address Alignment](https://github.com/petoolse/petools/issues/3)
 
 
 ### [1.9.712.2018](https://petoolse.github.io/petools/Announce-EN)
+
 `30 Mar 2018`
 
 #### Principal Changes
@@ -54,24 +57,29 @@ Some nice new features are added to make your experience more visible and comfor
 #### Get high
 
 High-DPI display modes supported including 192 DPI:
+
 - [x] DPI modes supported and tested: 96, 120, 144, 192
 - [x] Graphics redrawn:
-  - [x] Main Application Icon
-  - [x] Logo
-  - [x] Toolbar icons
+	- [x] Main Application Icon
+	- [x] Logo
+	- [x] Toolbar icons
 
 #### Cleanup
 
 Outdated and unnecessary features removed:
+
 - [ ] Old update system removed;
 - [ ] Plugins removed (old plugins had very basic API set with only 2 functions);
 - [x] Number of external libraries reduced;
 - [x] Modules with similar functionality merged.
 
+
 ## PE Tools v1.8
 
 `2017` _internal_
+
 - TODO: Update history
+
 
 ## PE Tools v1.7
 
@@ -83,10 +91,13 @@ Outdated and unnecessary features removed:
 - [x] Option to set `PE Sniffer` database: API `SetDataFile`
 - [x] `PESniffer` database is now loaded from `PESniffer.dll` location path, not from calling app path
 
+
 ### 1.7.100 alfa 3
 
 `18 July 2011` _internal_
+
 - [ ] Fixed bug in `import adder`
+
 
 ### 1.7.100 alfa 2
 
@@ -101,17 +112,22 @@ Outdated and unnecessary features removed:
 - [x] "Keep file time" option for `PE Rebuilder`
 - [x] New manifest for modern OS
 
+
 ### 1.7.100 alfa 1
 
 `27 Nov 2009` _internal_
+
 - [x] Build using `Visual Studio 2008`
 - [x] Small additions and changes
+
 
 ## PE Tools v1.6
 
 _internal_
+
 - [ ] Small bug-fixes
 - [x] Source code refactoring
+
 
 ## PE Tools v1.5
 
@@ -131,6 +147,7 @@ _internal_
 - [ ] Bug in resiurce handler fixed
 - [x] Small internal changed
 - [x] New version of CADt `disassembler` by Ms-Rem
+
 
 ### 1.5.400.2003
 
@@ -159,14 +176,17 @@ _internal_
 - [x] PE Tools now works fine on `Win95` (Tnx: Lepton)
 - [x] Sections processing algorithm is significantly changed
 
+
 ## PE Tools v1.4
 
 ### 1.4.419.2003
 
 `21 Mar 2003`
+
 - [ ] Interface bugs fixed
 - [x] Program can now correctly dump processes protected by `tElock`
 - [x] uinC Update System added
+
 
 ## PE Tools v1.3
 
@@ -175,35 +195,43 @@ _internal_
 `09 Dec 2002`
 - [ ] Fixed bugs in sections processing code
 
+
 ### 1.3 Build 54
 
 `24 Aug 2002`
+
 - [x] Now program automatically chooses a method of opening of files (Full access or Read-Only)
 - [x] The program displays section which has entrypoint
-- [x] `Drag-Drop`` support added
+- [x] `Drag-Drop` support added
 - [x] Additional functions to work with sections are added
 - [x] Code for PE files processing is re-written again
 - [ ] Bugs related to section processing fixed
 
+
 ### 1.3
 
 `01 June 2002`
+
 - [x] The program is renamed to PE Tools (Thanks to NiFi)
 - [x] Now the program can edit DOS-compatible header
 - [x] New features: backup copy creation and opening of files in read-only mode
 - [x] Procedure of identification of PE-files was considerably improved
 - [ ] Bug with opening files fixed
 
+
 ## PE Tools v1.2
 
 `13 May 2002`
+
 - [ ] Some bugs fixed
 - [ ] Program does not open Read-Only files
 - [x] Sources are provided with binaries
 
+
 ## PE Tools v1.1
 
 `07 May 2002`
+
 - [x] First public release. `GUI` application
 - [ ] Bug with sections fixed
 - [x] Functions for working with PE files are completely re-written
@@ -214,6 +242,7 @@ _internal_
 ## PE Tools v1.0
 
 `03 Feb 2002`
+
 - [x] Initial `console` version `never distributed`
 
 [back](./)
