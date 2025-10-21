@@ -192,7 +192,7 @@ throw std::exception("PE Tools source code is not available!");
 	- [ ] [x64dbg][x64dbg.gh]
 	- [ ] [Scylla Imports Reconstruction][scylla.gh]
 	- [ ] [Hiew][hiew]
-	- [ ] [r2][radare.gh]
+	- [ ] [radare2][radare.gh]
 	- [ ] [Resource Hacker][reshacker]
 - [ ] `Structures Export` to readable formats like `JSON` / `YAML`
 - [ ] `Crypto` tools (`hash`, `decryption` / `decryption`)
@@ -269,7 +269,7 @@ Feel free to contact via Twitter [@petoolse][twitter].
 [x64dbg.gh]: https://github.com/x64dbg/x64dbg
 [scylla.gh]: https://github.com/x64dbg/Scylla
 [hiew]: https://hiew.ru
-[radare.gh]: https://github.com/radare/radare2
+[radare.gh]: https://github.com/radareorg/radare2
 [reshacker]: https://www.angusj.com/resourcehacker
 
 [petools.releases.gh]: https://github.com/petoolse/petools/releases
