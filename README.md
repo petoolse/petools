@@ -1,6 +1,6 @@
 ![](img/petools-logo-blue-128.png)
 
-**PE Tools** - [portable executable](https://en.wikipedia.org/wiki/Portable_Executable) (PE) manipulation toolkit.
+**PE Tools** - [portable executable][pe.wiki] (PE) manipulation toolkit.
 
 
 ## Table of contents
@@ -145,19 +145,19 @@ Complete PE Tools v1.9 announces:
 
 #### Bug-fixes and minor changes
 
-See [HISTORY](https://petoolse.github.io/petools/HISTORY).
+See [HISTORY][petools.history.gh].
 
 
 ## System Requirements
 
-- Latest tested Operating System: [Windows 11][win11.wiki]
+- Latest tested Operating System: [Windows 11][win.11.wiki]
 - Supported Windows versions:
-	- [Windows 11][win11.wiki]
-	- [Windows 10][win10.wiki]
-	- [Windows 8.1][win81.wiki]
-	- [Windows 8][win8.wiki]
-	- [Windows 7][win7.wiki]
-- Minimal Operating System: [Windows XP][winxp.wiki]
+	- [Windows 11][win.11.wiki]
+	- [Windows 10][win.10.wiki]
+	- [Windows 8.1][win.8.1.wiki]
+	- [Windows 8][win.8.wiki]
+	- [Windows 7][win.7.wiki]
+- Minimal Operating System: [Windows XP][win.xp.wiki]
 - Administrative rights for `SeDebugPrivilege`
 - macOS supported via [Wine][wine] (tested Wine 3.4, 3.0, 2.16)
 - [ReactOS][reactos] natively supported (tested ReactOS 0.4.7)
@@ -165,8 +165,8 @@ See [HISTORY](https://petoolse.github.io/petools/HISTORY).
 
 ## Limitations
 
-- No [large files support](https://en.wikipedia.org/wiki/Large_file_support) (over 4 GB)
-- No [ARM disassembler](https://en.wikipedia.org/wiki/ARM_architecture#Operating_system_support) support (ARM architecture supported by [Windows 10 Mobile](https://en.wikipedia.org/wiki/Windows_10_Mobile), [Windows RT](https://en.wikipedia.org/wiki/Windows_RT), [Windows Phone](https://en.wikipedia.org/wiki/Windows_Phone), [Windows IoT Core](https://en.wikipedia.org/wiki/Windows_IoT#Core), [Windows Embedded Compact](https://en.wikipedia.org/wiki/Windows_Embedded_Compact))
+- No [large files support][lfs.wiki] (over 4 GB)
+- No [ARM disassembler][arm.wiki] support (ARM architecture supported by [Windows 10 Mobile][win10.mob.wiki], [Windows RT][win.rt.wiki], [Windows Phone][win.phone.wiki], [Windows IoT Core][win.iot.wiki], [Windows Embedded Compact][win.emb.wiki])
 
 
 ## Source code
@@ -247,12 +247,20 @@ Feel free to contact via Twitter [@petoolse][twitter].
 
 [pe.wiki]: https://en.wikipedia.org/wiki/Portable_Executable
 
-[win11.wiki]: https://en.wikipedia.org/wiki/Windows_11
-[win10.wiki]: https://en.wikipedia.org/wiki/Windows_10
-[win81.wiki]: https://en.wikipedia.org/wiki/Windows_8.1
-[win8.wiki]: https://en.wikipedia.org/wiki/Windows_8
-[win7.wiki]: https://en.wikipedia.org/wiki/Windows_7
-[winxp.wiki]: https://en.wikipedia.org/wiki/Windows_XP
+[win.11.wiki]: https://en.wikipedia.org/wiki/Windows_11
+[win.10.wiki]: https://en.wikipedia.org/wiki/Windows_10
+[win.8.1.wiki]: https://en.wikipedia.org/wiki/Windows_8.1
+[win.8.wiki]: https://en.wikipedia.org/wiki/Windows_8
+[win.7.wiki]: https://en.wikipedia.org/wiki/Windows_7
+[win.xp.wiki]: https://en.wikipedia.org/wiki/Windows_XP
+
+[lfs.wiki]: https://en.wikipedia.org/wiki/Large_file_support
+[arm.wiki]: https://en.wikipedia.org/wiki/ARM_architecture#Operating_system_support
+[win.10.mob.wiki]: https://en.wikipedia.org/wiki/Windows_10_Mobile
+[win.rt.wiki]: https://en.wikipedia.org/wiki/Windows_RT
+[win.phone.wiki]: https://en.wikipedia.org/wiki/Windows_Phone
+[win.iot.wiki]: https://en.wikipedia.org/wiki/Windows_IoT#Core
+[win.emb.wiki]: https://en.wikipedia.org/wiki/Windows_Embedded_Compact
 
 [wine]: https://www.winehq.org
 [reactos]: https://www.reactos.org
@@ -266,6 +274,7 @@ Feel free to contact via Twitter [@petoolse][twitter].
 
 [petools.releases.gh]: https://github.com/petoolse/petools/releases
 [petools.issues.gh]: https://github.com/petoolse/petools/issues
+[petools.history.gh]: https://petoolse.github.io/petools/HISTORY
 
 [pe.tools.uinc]: https://web.archive.org/web/20171201053946/uinc.ru/files/neox/PE_Tools.shtml
 
