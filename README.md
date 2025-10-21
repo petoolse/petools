@@ -272,6 +272,7 @@ Feel free to contact via Twitter [@petoolse][twitter].
 [radare.gh]: https://github.com/radareorg/radare2
 [reshacker]: https://www.angusj.com/resourcehacker
 
+[petools.web.gh]: https://petoolse.github.io/petools
 [petools.releases.gh]: https://github.com/petoolse/petools/releases
 [petools.issues.gh]: https://github.com/petoolse/petools/issues
 [petools.history.gh]: https://petoolse.github.io/petools/HISTORY
