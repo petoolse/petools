@@ -171,6 +171,7 @@ throw std::exception(“​PE Tools source code is not available”);
     - [ ] [Hiew](http://hiew.ru)
     - [ ] [r2](https://github.com/radare/radare2)
     - [ ] [Resource Hacker](http://www.angusj.com/resourcehacker)
+    - [ ] [Resource Cracker](https://www.pelock.com/products/resource-cracker)
 - [ ] `Structures Export` to readable formats like `JSON` / `YAML`
 - [ ] `Crypto` tools (`hash`, `decryption` / `decryption`)
 - [ ] `ARM` disassembler (far-far-away)
